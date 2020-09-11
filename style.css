@@ -1,0 +1,58 @@
+.div {
+  display: flex;
+  justify-content: left;
+}
+#text {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #333;
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-right: 10px;
+}
+
+#add {
+  width: 150px;
+  height: 103.5px;
+  border: 1px solid #333;
+  text-align: center;
+  padding-top: 15px;
+  box-sizing: border-box;
+  font-size: 4rem;
+  color: #444;
+  background: #e1e1e1;
+}
+
+#add:hover {
+  cursor: pointer;
+  display: inline;
+}
+
+#added {
+  margin-left: 2.5rem;
+}
+
+.minus {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: #e1e1e1;
+  border: 1px solid;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.txt {
+  margin-right: 5px;
+}
+
+#added {
+  background: #e1e1e1;
+  width: 300px;
+  height: 500px;
+  margin-top: 5px;
+  padding: 1rem;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  position: fixed;
+}
