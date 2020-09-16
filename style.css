@@ -56,3 +56,7 @@
   overflow-y: scroll;
   position: fixed;
 }
+
+.btn-2 {
+  margin-bottom: 1rem;
+}

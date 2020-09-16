@@ -26,3 +26,8 @@ function create() {
   console.log(p);
   console.log(clicked);
 }
+
+function goBack() {
+  window.history.back();
+  console.log("ajillaa");
+}
