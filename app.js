@@ -29,5 +29,4 @@ function create() {
 
 function goBack() {
   window.history.back();
-  console.log("ajillaa");
 }
